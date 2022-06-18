@@ -11,36 +11,42 @@
   <body>
     <div class="container">
       <div class="header">
-       <div class="navBar">
-          <div class="currency">
-            <div id="en">EN</div>
-            <div id="usd">USD</div>
-          </div>
-          <div class="user">
-              <div class="rightNav" id="account">My profile</div>
-             <div class="rightNav" id="cart">crt</div>
-             <div class="rightNav" id="items">Items</div>
-             <div  class="rightNav" id="search">$0.00()</div>
+        <div class="top">
+          <div class="navBar">
+            <div class="currency">
+              <div class="en">
+               <select name="en" id="currency1">EN</select> 
+               <select name="usd" id="currency2">USD</select> 
+              </div>
             </div>
+            <div class="user">
+                <div class="rightNav account">My profile</div>
+               <div class="rightNav cart">crt</div>
+               <div class="rightNav items">Items</div>
+               <div  class="rightNav search">$0.00()</div>
+              </div>
+          </div>
         </div>
         <div class="menu">
           <div class="ecomm">
-            <div id="icon"><img src="/resources/Icon.svg" alt="logo" width="100%"></div>
-            <div id="e-comm">E-Comm</div>
+            <div class="icon"><img src="/resources/Icon.svg" alt="logo" width="100%"></div>
+            <div class="e-comm">E-Comm</div>
           </div>
           <div class="access">
-            <div class="info" id="home">HOME</div>
-            <div class="info" id="bags">BAGS</div>
-            <div class="info" id="sneakers">SNEAKERS</div>
-            <div class="info" id="belt">BELT</div>
-            <div class="info" id="contact">CONTACT</div>
+            <div class=" dropdown">
+              <div class="home">HOME</div>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <div class="bags dropdown">BAGS</div>
+            <div class="sneakers dropdown">SNEAKERS</div>
+            <div class="belt dropdown">BELT</div>
+            <div class="contact dropdown">CONTACT</div>
           </div>
         </div>
-      </div>
-      <div class="body">
-        <div class="backImg"></div>
-        <div class="shop"></div>
-      </div>
     </div>
   </body>
 </html>
