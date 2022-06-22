@@ -1,8 +1,8 @@
 body{
   margin: 0%;
   overflow: hidden;
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: 'Poppins', sans-serif;
+ 
 }
 .navbar-container{
   width: 100%;
@@ -15,9 +15,9 @@ body{
   border-bottom:0.05em solid #FAFAFB;
 }
 .container-border__header{
-  width: 90%;
+  width: 88%;
   margin: auto;
-  padding: 0.8rem 0rem 0.4rem;
+  padding-top: 0.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,21 +25,26 @@ body{
 
 }
 .navbar-container__menu{
-  width: 90%;
+  width: 88%;
   padding: 1em 0em;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
 }
 .border-header__user{
-  width: 25%;
+  width: 32%;
+  font-size: 1.3em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .container-menu__access{
-  width: 50%;
+  width: 70%;
+  font-size: 1.3em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   font-weight: bolder;
 }
 .container-menu__ecomm{
@@ -48,22 +53,23 @@ body{
   justify-content: space-between;
 }
 .menu-ecomm__title{
-  font-size: 0.9em;
+  font-size: 1em;
+  font-weight: bold;
   color: #22262A;
-  font-weight:bolder;
+  
 }
 .cart{
- width: 10%;
+ width: 11%;
  height: 3rem;
  background: url("./resources/Cart.svg" );
  background-repeat: no-repeat;
- background-size: 3rem 3rem;
+ background-size: 4rem 4rem;
  background-position: center;
 }
 .ecomm-icon__img{
-  width: 80%;
+  width: 90%;
 }
-.header-currency__note{
+.select{
   border: none;
 }
 
