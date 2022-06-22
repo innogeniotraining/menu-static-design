@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200&family=Poppins:wght@500&display=swap" rel="stylesheet">
     <title>Static Template</title>
   </head>
   <body>
@@ -14,40 +14,34 @@
           <div class="container-border__header">
             <div class="border-header__currency">
                <select class="header-currency__note" name="country" id="EN">
-                 <option selected disabled >
-                  <span class="label-placeholder"> EN</span>
-                 </option>
-                 <option value="UGD">UGD</option>
-                 <option value="HKR">HKR</option>
-                 <option value="INK">INK</option>
+                 <option value="EN" selected>EN</option>
+                 <option value="SP">SP</option>
+                 <option value="HI">HI</option>
                 </select> 
                <select class="header-currency__note" name="country" id="USD">
-                <option selected disabled >
-                  <span class="label-placeholder">USD</span>
-                 </option>
+                <option selected value="USD">USD</option>
+                 <option value="EUR">EUR</option>
                  <option value="INR">INR</option>
-                 <option value="SDR">SDR</option>
-                 <option value="IKL">IKL</option>
                 </select> 
             </div>
             <div class="border-header__user">
-                <div class="header-user__rightNav account">My profile</div>
-               <div class="header-user__rightNav cart"></div>
-               <div class="header-user__rightNav items">Items</div>
-               <div  class="header-user__rightNav search">$0.00()</div>
+                <div class="account">My profile</div>
+                <div class="cart"> </div>
+               <div class="items">Items</div>
+               <div  class="search">$0.00()</div>
               </div>
           </div>
         </div>
         <div class="navbar-container__menu">
           <div class="container-menu__ecomm">
-            <div class="menu-ecomm__icon"><img src="/resources/Icon.svg" alt="logo" width="100%"></div>
+            <div class="menu-ecomm__icon"><img class="ecomm-icon__img"src="/resources/Icon.svg" alt="logo" ></div>
             <div class="menu-ecomm__title">E-Comm</div>
           </div>
           <div class="container-menu__access">   
-            <div class="menu-access__home dropDown">HOME</div>
-            <div class="menu-access__bags dropdown">BAGS</div>
-            <div class="menu-access__sneakers dropdown">SNEAKERS</div>
-            <div class="menu-access__menu-access__belt dropdown">BELT</div>
+            <div class="menu-access__home ">HOME</div>
+            <div class="menu-access__bags ">BAGS</div>
+            <div class="menu-access__sneakers ">SNEAKERS</div>
+            <div class="menu-access__menu-access__belt">BELT</div>
             <div class="contact dropdown">CONTACT</div>
           </div> 
         </div> 
