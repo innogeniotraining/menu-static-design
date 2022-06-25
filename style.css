@@ -2,79 +2,56 @@ body{
   margin: 0%;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
- 
 }
-.navbar-container{
+.layout__navbar{
+  padding: 0% 6%;
+}
+.layout-navbar__top{
   width: 100%;
+  padding: 1.8% 0% 0.8%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
 }
-.navbar-container__border{
+
+.layout-navbar__bottom{
   width: 100%;
-  border-bottom:0.05em solid #FAFAFB;
-}
-.container-border__header{
-  width: 88%;
-  margin: auto;
-  padding-top: 0.8rem;
+  padding-top: 2%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  font-size: 0.8em;
-
 }
-.navbar-container__menu{
-  width: 88%;
-  padding: 1em 0em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-.border-header__user{
-  width: 32%;
-  font-size: 1.3em;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.container-menu__access{
-  width: 70%;
-  font-size: 1.3em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-weight: bolder;
-}
-.container-menu__ecomm{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.menu-ecomm__title{
-  font-size: 1em;
-  font-weight: bold;
-  color: #22262A;
-  
-}
-.cart{
- width: 11%;
- height: 3rem;
- background: url("./resources/Cart.svg" );
- background-repeat: no-repeat;
- background-size: 4rem 4rem;
- background-position: center;
-}
-.ecomm-icon__img{
-  width: 90%;
-}
-.select{
+select{
+  padding-left: 0.2em;
   border: none;
+  outline: none;
+  appearance: none;
+  background: url("./resources/arrow-down.svg");
+  background-size: 20% 20%;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.language{
+  min-width: 4.2ch;
+}
+.currency{
+  min-width: 5.4ch;
 }
 
 
-
-
-
-
+.navbar-top__select{
+  display: flex;
+  justify-content: space-between;
+}
+  
+.navbar-top__user{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-bottom__ecomm{
+  display: flex;
+}
+.navbar-bottom__menu{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
