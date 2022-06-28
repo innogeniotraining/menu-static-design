@@ -45,9 +45,12 @@ select{
   
 .navbar-top__user{
   width: 26%;
+  font-size: 90%;
+  font-weight: 200;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .navbar-bottom__ecomm{
   display: flex;
@@ -57,6 +60,8 @@ select{
   width: 60%;
   display: flex;
   justify-content: space-between;
+  font-size:1.1rem;
+  font-weight: 500;
 }
 .bottom-ecomm__icon{
   width: 80%;
@@ -67,6 +72,9 @@ select{
 .top-user__profile{
   display: flex;
   align-items: center;
+}
+.user-profile__amount{
+  color: #808080;
 }
 .layout__dropdown{
   width: 60%;
@@ -85,12 +93,14 @@ select{
   text-align: center;
   color: #ffffff;
   position: absolute;
-  top:-25%;
-  right: -26%;
+  top:-32%;
+  right: -36%;
   width: 1rem;
   height: 1rem;
   background-color: #FB7181;
   border-radius: 50%;
   border: 0.1rem solid #fff;
- 
+}
+.searchImg{
+  width: 60%;
 }
