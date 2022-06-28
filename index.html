@@ -1,12 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Template</title>
+    <title>Home Page</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
+    <div class="complete-layout">
+      <div class="layout__navbar">
+        <div class="layout-navbar__top">
+          <div class="navbar-top__select">
+            <div class="top-select__language">
+              <select class="language">
+                <option value="EN">EN</option>
+                <option value="AR">AR</option>
+                <option value="HI">HI</option>
+              </select>&nbsp
+            </div> 
+            <div class="top-select__currency">
+              <select class="currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="IDR">IDR</option>
+                <option value=" INR">INR</option>
+              </select>
+            </div>
+          </div>
+          <div class="navbar-top__user">
+            <div class="top-user__profile">
+              <div class="user-profile__img"><img class="profile-img" src="./resources/profile.svg" alt=""></div>
+              <div class="user-profile__text">My profile</div> 
+            </div>
+            <div class="user-profile__cart"><img src="./resources/cart.svg" alt="cart">
+              <div class="profile-cart__number">2</div>
+            </div>
+            <div class="user-profile__Items">Items</div>
+            <div class="user-profile__amount">$0.00</div>
+          </div>
+        </div>
+        <div class="layout-navbar__bottom">
+          <div class="navbar-bottom__ecomm">
+            <div><img class="bottom-ecomm__icon" src="./resources/Icon.svg" alt="logo"> </div>
+            <div class="bottom-ecomm__title">E-Comm</div>
+          </div>
+          <div class="navbar-bottom__menu">
+            <div class="bottom-menu__home">
+              <div class="menu-home__dropdown">HOME</div>
+            </div>
+            <div>BAGS</div>
+            <div>SNEAKERS</div>
+            <div>BELT</div>
+            <div>CONTACT</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
