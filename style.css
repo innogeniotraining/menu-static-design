@@ -46,7 +46,7 @@ select{
 .navbar-top__user{
   width: 26%;
   font-size: 90%;
-  font-weight: 200;
+  font-weight: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,6 +66,9 @@ select{
 .bottom-ecomm__icon{
   width: 80%;
 }
+.bottom-ecomm__title{
+  font-weight: bolder;
+}
 .profile-img{
   width:80%;
 }
@@ -75,15 +78,6 @@ select{
 }
 .user-profile__amount{
   color: #808080;
-}
-.layout__dropdown{
-  width: 60%;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1.3fr) 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 2rem;
-  padding: 2rem;
 }
 .user-profile__cart{
   position: relative;
