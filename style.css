@@ -77,3 +77,20 @@ select{
   grid-gap: 2rem;
   padding: 2rem;
 }
+.user-profile__cart{
+  position: relative;
+}
+.profile-cart__number{
+  font-size: 70%;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top:-25%;
+  right: -26%;
+  width: 1rem;
+  height: 1rem;
+  background-color: #FB7181;
+  border-radius: 50%;
+  border: 0.1rem solid #fff;
+ 
+}

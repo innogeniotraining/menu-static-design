@@ -3,7 +3,9 @@
   <head>
     <title>Home Page</title>
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="complete-layout">
@@ -31,8 +33,10 @@
               <div class="user-profile__img"><img class="profile-img" src="./resources/profile.svg" alt=""></div>
               <div class="user-profile__text">My profile</div> 
             </div>
-            <div>cart</div>
-            <div>items</div>
+            <div class="user-profile__cart"><img src="./resources/cart.svg" alt="cart">
+              <div class="profile-cart__number">2</div>
+            </div>
+            <div>Items</div>
             <div>search</div>
           </div>
         </div>
@@ -51,17 +55,6 @@
             <div>CONTACT</div>
           </div>
         </div>
-      </div>
-      <div class="layout__dropdown">
-        <div class="layout-dropdown__category">
-          <div>Category</div>
-          <div>Coporate Shoes</div>
-          <div>Sneakers</div>
-          <div>Sandals</div>
-          <div>Trainers</div>
-        </div>
-        <div class="layout-dropdown__category">Category</div>
-        <div class="layout-dropdown__category">Category</div>
       </div>
     </div>
   </body>
