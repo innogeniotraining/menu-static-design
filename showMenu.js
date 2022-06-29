@@ -1,8 +1,8 @@
 
 function showMenu(){
-  var e= document.getElementById("dropdown");
-  if(e.style.display === 'none')
-    e.style.display = 'grid';
+  var dropdownHandler= document.getElementById("dropdown");
+  if(dropdownHandler.style.display === 'none')
+  dropdownHandler.style.display = 'grid';
   else
-    e.style.display='none';
+  dropdownHandler.style.display='none';
 }
